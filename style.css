@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: url(./images/top_bg.jpg) repeat-x;
+    position: relative;
+    line-height: 1;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#wrap{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header #gnb {
+    width: 140px;
+    height: 780px;
+    background-color: #009933;
+    position: relative;
+}
+
+#header #gnb .title {
+    padding: 30px 14px 0 14px;
+}
+
+#header #gnb .menu {
+    padding: 10px 0 0 30px;
+}
+
+#header #gnb .menu li {
+    padding: 4px 0;
+}
+
+#header .top {
+    width: 100%;
+    height: 29px;
+    position: absolute;
+    top: 0;
+    left: 140px;
+}
+
+#header .top .menu {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+#header .top .menu li {
+    float: left;
+    padding: 0 10px;
+    background : url(./images/top_line.jpg) no-repeat;
+}
+
+#header .top .menu :first-child {
+    background-image: none;
+}
+
