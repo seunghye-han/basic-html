@@ -61,3 +61,19 @@ ul {
     background-image: none;
 }
 
+#content1 {
+    width: 596px;
+    position: absolute;
+    top: 29px;
+    left: 140px;
+}
+
+#content1 .campaign {
+    height: 377px;
+}
+
+#content1 .campaign .title {
+    width: 64px;
+    margin: 0 auto;
+}
+
